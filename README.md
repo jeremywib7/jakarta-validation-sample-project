@@ -45,7 +45,6 @@ can use the Validator interface, which provides several methods for validating o
 <img width="748" alt="Screenshot 2023-04-13 at 21 00 40" src="https://user-images.githubusercontent.com/66008860/231783684-1fddca4c-0b36-4591-aa5f-3631b6b04037.png">
 
 <img width="684" alt="Screenshot 2023-04-13 at 21 02 39" src="https://user-images.githubusercontent.com/66008860/231804364-034ee340-eb51-4575-861b-fcaaa9ff6bd4.png">
-- Success
 
 
 
