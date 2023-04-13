@@ -7,7 +7,7 @@ method level and can be used to enforce constraints on the values of these prope
 ## Environment
 
 - Java 17
-- Springboot
+- Springboot 3
 
 ## Usage/Examples
 
