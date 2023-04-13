@@ -4,6 +4,11 @@ Jakarta Validation is a popular validation framework used in Java applications. 
 can be used to validate Java objects and their properties. These annotations can be applied at the class, field, or
 method level and can be used to enforce constraints on the values of these properties.
 
+## Environment
+
+- Java 17
+- Springboot
+
 ## Usage/Examples
 
 To use Jakarta Validation in your Java application, you need to add the Jakarta Validation library to your project's
