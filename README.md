@@ -20,6 +20,20 @@ classpath. You can do this by adding the following dependency to your pom.xml fi
 Once you have added the dependency, you can start using Jakarta Validation in your code. To validate a Java object, you
 can use the Validator interface, which provides several methods for validating objects and their properties.
 
+#### Hello
+
+```http
+  POST /hello
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `firstName` | `string` | **Required**. First name |
+| `lastName` | `string` | **Required**. Last name |
+| `email` | `string` | **Required**. Email |
+| `phoneNumber` | `string` | **Required**. Phone Number |
+| `skills` | `Array` | **Required**. Skills |
+
 ```javascript
     @PostMapping("/hello")
     public ResponseEntity<Hello> sayHello(@Valid @RequestBody Hello hello){
