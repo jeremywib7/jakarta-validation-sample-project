@@ -26,5 +26,7 @@ can use the Validator interface, which provides several methods for validating o
         return new ResponseEntity<>(hello,HttpStatus.OK);
     }
 ```
+## Screenshot
+
 <img width="949" alt="Screenshot 2023-04-13 at 15 26 14" src="https://user-images.githubusercontent.com/66008860/231722268-5f951fd3-b623-4d18-bfb8-012682c1e0eb.png">
 
