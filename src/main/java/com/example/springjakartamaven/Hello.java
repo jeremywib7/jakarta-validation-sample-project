@@ -23,10 +23,10 @@ public class Hello {
     @Email
     private String email;
 
+    @NotBlank
     @Past(message="birth date must be in the past")
     private Date birthDate;
 
-    @NotNull
     @Size(min = 1, max = 10, message = "skills must have between 1 and 10 items")
     @UniqueElements
     private List<String> skills;
