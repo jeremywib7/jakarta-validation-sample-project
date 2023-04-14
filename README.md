@@ -36,6 +36,7 @@ can use the Validator interface, which provides several methods for validating o
 | `firstName` | `string` | **Required**. First name |
 | `lastName` | `string` | **Required**. Last name |
 | `email` | `string` | **Required**. Email |
+| `birthDate` | `Date` | **Optional**. Birthdate |
 | `phoneNumber` | `string` | **Required**. Phone Number |
 | `skills` | `Array` | **Required**. Skills |
 
