@@ -19,7 +19,6 @@ public class Hello {
     @Pattern(regexp="\\+62\\d{9,12}", message="Invalid phone number format. Please use +62 followed by 9-12 digits.")
     private String phoneNumber;
 
-    @NotBlank
     @Email
     private String email;
 

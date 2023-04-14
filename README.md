@@ -32,13 +32,13 @@ can use the Validator interface, which provides several methods for validating o
 ```
 
 | Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `firstName` | `string` | **Required**. First name |
-| `lastName` | `string` | **Required**. Last name |
-| `email` | `string` | **Required**. Email |
-| `birthDate` | `Date` | **Optional**. Birthdate |
+| :-------- | :------- |:---------------------------|
+| `firstName` | `string` | **Required**. First name   |
+| `lastName` | `string` | **Required**. Last name    |
+| `email` | `string` | **Optional**. Email        |
+| `birthDate` | `Date` | **Required**. Birthdate    |
 | `phoneNumber` | `string` | **Required**. Phone Number |
-| `skills` | `Array` | **Required**. Skills |
+| `skills` | `Array` | **Required**. Skills       |
 
 ```javascript
     @PostMapping("/hello")
